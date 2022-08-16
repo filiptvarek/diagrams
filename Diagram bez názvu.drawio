@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T08:58:25.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.4" etag="Io9hzbC4J-Snf980HJet" type="github"><diagram id="UUr9oCmgKK7NFTHfe8kC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-16T13:10:32.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZJBRO6jYQDzDktx17HtR" version="20.2.4" type="github">
+  <diagram id="UUr9oCmgKK7NFTHfe8kC" name="Page-1">
+    <mxGraphModel dx="992" dy="1223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FNvh9srxU-pzTjBqOGl6-1" target="FNvh9srxU-pzTjBqOGl6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-1" value="CSV data (xyz.csv)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNvh9srxU-pzTjBqOGl6-2" target="FNvh9srxU-pzTjBqOGl6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-2" value="Import data &lt;br&gt;to app &lt;br&gt;(create batch)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNvh9srxU-pzTjBqOGl6-3" target="FNvh9srxU-pzTjBqOGl6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-3" value="check the &lt;br&gt;imported data" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FNvh9srxU-pzTjBqOGl6-4" target="FNvh9srxU-pzTjBqOGl6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNvh9srxU-pzTjBqOGl6-4" target="FNvh9srxU-pzTjBqOGl6-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-4" value="Are the data correct?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="350" width="164" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNvh9srxU-pzTjBqOGl6-5" target="FNvh9srxU-pzTjBqOGl6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-5" value="Fix the data &lt;br&gt;in .csv file" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNvh9srxU-pzTjBqOGl6-8" target="FNvh9srxU-pzTjBqOGl6-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-8" value="Delete old&lt;br&gt;batch" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNvh9srxU-pzTjBqOGl6-17" target="FNvh9srxU-pzTjBqOGl6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-17" value="Do I need template&lt;br&gt;change?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="490" width="164" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FNvh9srxU-pzTjBqOGl6-18" value="Update the &lt;br&gt;template" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
